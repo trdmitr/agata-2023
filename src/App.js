@@ -34,18 +34,9 @@ class App extends Component {
         worker: true,
         skipEmptyLines: true,
         complete: this.updateData,
-        // complete: function(results) { 
-        //   return (
-        //     this.setState({ ...this.state, songs: results.data })
-        //   )
-          
-        // }.bind(this),
         error: (error) => {
           console.error(error);
-          // this.setState({songsEror: error.message})
-          // this.setState({ isLoading: true });
         }
-
       }
     );
   }
@@ -64,10 +55,6 @@ class App extends Component {
   }
   render() {
     const { songs, isLoading } = this.state
-    // if (isLoading) {
-    //   return <Loader/>
-    // }
-    // isLoading ? <Loader/> : ""
     if (songs.length === 0) {
       return  null
     }
