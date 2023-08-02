@@ -64,7 +64,7 @@ const Player = ({songs, songError}) => {
 const audioList = [...audiosongs1, ...audiosongs2, ...audiosongs3, ...audiosongs4, ...audiosongs5, ...audiosongs6]
             .filter(e => e.src !== '')
   if (audioList.length === 0) {
-        return <Loader/>
+        return <div className='loadBlock'><Loader/></div> 
       }
 //       if (songError.length === 0) 
 // return <h1 >Ошибка загрузки!{songError}</h1>
