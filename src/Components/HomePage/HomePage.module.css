@@ -157,7 +157,7 @@
     color: var(--colorText);
     background-color: var(--tributeAfterBefore);
     border-radius: 0.5em;
-	border: 3px solid rgb(3 47 83);
+	border: 3px solid rgb(83, 3, 7);
     /* text-shadow: var(--textShadow); */
     /* box-shadow: var(--boxShadow); */
 	padding: 0.5rem;
@@ -174,7 +174,7 @@
 	box-sizing: border-box;
 	top: 95%;
     left: 29%;
-	border: 2px solid rgb(3 47 83);;
+	border: 2px solid rgb(83, 3, 7);
 	border-radius: 1em;
 	text-decoration: none;
 	color: var(--colorText);
@@ -185,7 +185,7 @@
 	font-size: 1.5em;
 	text-align: center;
 	background-color: var(--tributeAfterBefore);
-	border: 3px solid rgb(3 47 83);
+	border: 3px solid rgb(83, 3, 7);
 	border-radius: 0.4em;
 	box-shadow: #437baf;
 	margin: 0.25em;
