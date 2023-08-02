@@ -169,10 +169,10 @@
   
   .navLink {
 	position: absolute;
-	padding: 0.1em 2em 0 2em;
+	padding: 0.1em 2em 0.2em 2em;
 	/* margin-right: 1em; */
 	box-sizing: border-box;
-	top: 95%;
+	top: 92%;
     left: 29%;
 	border: 2px solid rgb(83, 3, 7);
 	border-radius: 1em;

@@ -2,10 +2,10 @@
     /* background-color: rgba(0, 255, 255, 0.199) !important; */
     text-align: center;
     z-index: 2;
-    color: var(--colorText);
+    color: var(--tributeAfterBefore);
     font-size: 1em !important;
     margin-top: 3em;
-    
+    font-weight: bold;
   }
 .player h2 {
     /* margin-top: 1em; */

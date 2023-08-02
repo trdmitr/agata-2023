@@ -125,8 +125,8 @@
     font-size: 1.5rem;
     text-align: center;
     color: var(--colorText);
-    /* background-color: var(--tributeAfterBefore); */
-    background-color: var(--colorBackgroundAll);
+    background-color: var(--tributeAfterBefore);
+    /* background-color: var(--colorBackgroundAll); */
     border-radius: 0.5rem;
     /* border: 3px solid rgb(3 47 83); */
     -webkit-clip-path: polygon(0 5%, 55% 5%, 94% 3%, 100% 91%, 60% 100%, 38% 100%, 0 94%);
