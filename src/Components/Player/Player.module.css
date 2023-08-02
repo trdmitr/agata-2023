@@ -5,6 +5,7 @@
     color: var(--tributeAfterBefore);
     font-size: 1em !important;
     margin-top: 3em;
+    margin-bottom: 2em;
     font-weight: bold;
   }
 .player h2 {

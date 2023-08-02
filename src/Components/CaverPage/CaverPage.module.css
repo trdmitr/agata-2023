@@ -268,11 +268,14 @@
   }
   .btnHome {
     /* background-color: #bf6947; */
+    color: beige;
     position: absolute;
-    top: 1%;
-    left: 78%;
-    /* background-color: #bf6947ba; */
+    top: 92%;
+    left: 38%;
+    background-color: var(--tributeAfterBefore);
     border-radius: 6%;
-    padding: 0.2em;
-    opacity: 0.5;
+    padding: 1.2em;
+    /* opacity: 0.5; */
+    cursor: pointer;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
   }

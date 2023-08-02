@@ -156,7 +156,8 @@
   
   audio::-webkit-media-controls-enclosure {
   
-    background-color: var(--tributeAfterBefore);
+    background-color: #e4e0e7;
+    border: 3px solid var(--tributeAfterBefore);
     text-shadow: -1px -1.6px 0px #e4e0e7;
     box-shadow: var(--boxShadow);
   
@@ -195,10 +196,12 @@
 
   .bTnSing {
     position: absolute;
+    color: aliceblue;
     top: 1%;
     left: 78%;
-    /* background-color: #bf6947ba; */
+    background-color: var(--tributeAfterBefore);
     border-radius: 6%;
     padding: 0.2em;
-    opacity: 0.5;
+    cursor: pointer;
+    /* opacity: 0.5; */
   }
