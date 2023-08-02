@@ -22,12 +22,12 @@ class HomePage extends Component {
         
         <div className= {classes.main}>
           
-  <div className= {classes.article}><p >Февральский трибьют!</p></div>
+  <div className= {classes.article}><p >Агата Кристи</p></div>
   {/* <div className= {classes.article}><img src={imgUrl2} width={100} alt={imgAlt} />
   </div> */}
   {/* <div className= {classes.article}><audio controls src={frontAudio} type="audio/mpeg" /></div> */}
   <div className= {classes.article}><img src={imgUrl} width={100} alt={imgAlt} /></div>
- <p className={classes.textarea}>Трибьют посвящён памятным музыкальным датам февраля</p>
+ <p className={classes.textarea}>Трибьют посвящён дню рождения Глеба Самойлова</p>
   {/* <div className= {classes.article}><img  style={{ marginTop:"1em"}} src={imgTzi} width={100} alt="Каверы Подземки" /> </div> */}
 </div>
       </div>

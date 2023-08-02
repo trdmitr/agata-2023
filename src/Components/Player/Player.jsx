@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import React from 'react'
 import { useState} from "react";
 import classes from "./Player.module.css"
 import AudioPlayer from "react-h5-audio-player";
@@ -57,12 +57,12 @@ const Player = ({songs, songError}) => {
     return container;
 }
 ) 
-    const audioList = useMemo(() => { 
-      return  [...audiosongs1, ...audiosongs2, ...audiosongs3, ...audiosongs4, ...audiosongs5, ...audiosongs6]
- .filter(e => e.src !== '');
-}, [songs])
-// const audioList = [...audiosongs1, ...audiosongs2, ...audiosongs3, ...audiosongs4, ...audiosongs5, ...audiosongs6]
-// .filter(e => e.src !== '');
+//     const audioList = useMemo(() => { 
+//       return  [...audiosongs1, ...audiosongs2, ...audiosongs3, ...audiosongs4, ...audiosongs5, ...audiosongs6]
+//  .filter(e => e.src !== '');
+// }, [songs])
+const audioList = [...audiosongs1, ...audiosongs2, ...audiosongs3, ...audiosongs4, ...audiosongs5, ...audiosongs6]
+            .filter(e => e.src !== '')
   if (audioList.length === 0) {
         return <Loader/>
       }
@@ -104,4 +104,4 @@ const Player = ({songs, songError}) => {
   )
 }
 
-export default Player
+export default React.memo(Player) 

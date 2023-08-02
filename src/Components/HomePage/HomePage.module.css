@@ -148,20 +148,23 @@
 		
   }
 
-  .article P{
+  .article P {
 	font-family: 'Pompadur';
 	/* display: block; */
     font-size: 1.7rem;
 	font-weight: bold;
     text-align: center;
     color: rgb(3 47 83);;
-    /* background-color: var(--tributeAfterBefore); */
-    /* border-radius: 0.5em; */
+    background-color: var(--tributeAfterBefore);
+    border-radius: 0.5em;
+	border: 3px solid rgb(3 47 83);
     /* text-shadow: var(--textShadow); */
     /* box-shadow: var(--boxShadow); */
-	padding: 0.2rem;
+	padding: 0.5rem;
     margin-top: 1em;
     margin-bottom: 0.5em;
+	margin-left: 0.25em;
+	margin-right: 0.25em;
   }
   
   .navLink {
@@ -171,16 +174,19 @@
 	box-sizing: border-box;
 	top: 95%;
     left: 29%;
-	border: 1px solid rgb(3 47 83);;
+	border: 2px solid rgb(3 47 83);;
 	border-radius: 1em;
 	text-decoration: none;
 	color: rgb(3 47 83);
-	background-color: #ffb700;
+	background-color: #d695ae;
   }
   .textarea {
 	font-size: 1.5em;
 	text-align: center;
-	background-color: #437baf;
+	background-color: var(--tributeAfterBefore);
+	border: 3px solid rgb(3 47 83);
 	border-radius: 0.4em;
 	box-shadow: #437baf;
+	margin: 0.25em;
+	padding: 0.25em;
   }

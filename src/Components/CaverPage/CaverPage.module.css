@@ -260,6 +260,10 @@
   }
   .tziTata p {
     font-size: 0.5em;
+    color: var(--colorText);
+    background-color: var(--colorBackgroundAll);
+    border-radius: 0.5rem;
+    border: 3px solid rgb(3 47 83);
   }
   .btnHome {
     /* background-color: #bf6947; */
