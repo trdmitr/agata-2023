@@ -154,7 +154,7 @@
     font-size: 1.7rem;
 	font-weight: bold;
     text-align: center;
-    color: rgb(3 47 83);;
+    color: var(--colorText);
     background-color: var(--tributeAfterBefore);
     border-radius: 0.5em;
 	border: 3px solid rgb(3 47 83);
@@ -177,10 +177,11 @@
 	border: 2px solid rgb(3 47 83);;
 	border-radius: 1em;
 	text-decoration: none;
-	color: rgb(3 47 83);
-	background-color: #d695ae;
+	color: var(--colorText);
+	background-color: #8b302f;
   }
   .textarea {
+	color: var(--colorText);
 	font-size: 1.5em;
 	text-align: center;
 	background-color: var(--tributeAfterBefore);

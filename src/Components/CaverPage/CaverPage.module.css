@@ -33,9 +33,10 @@
     width: calc(50% - 1.5em);
     height: auto;
    padding: 2.4em; 
-   background-color: #e2e3e4;
+   background-color: var(--tributeAfterBefore);
    border-radius: 0.5em;
    box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3), 0 5px 21px 0 rgba(0,0,0,0.18);
+   clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 84% 84%, 75% 100%, 40% 87%, 0 85%);
 }
 .media p {
   font-family: 'Pompadur';
