@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/agata-2023/static/css/main.842966dc.css",
+    "main.css": "/agata-2023/static/css/main.ca061fc3.css",
     "main.js": "/agata-2023/static/js/main.a8719322.js",
     "index.html": "/agata-2023/index.html",
-    "main.842966dc.css.map": "/agata-2023/static/css/main.842966dc.css.map",
+    "main.ca061fc3.css.map": "/agata-2023/static/css/main.ca061fc3.css.map",
     "main.a8719322.js.map": "/agata-2023/static/js/main.a8719322.js.map"
   },
   "entrypoints": [
-    "static/css/main.842966dc.css",
+    "static/css/main.ca061fc3.css",
     "static/js/main.a8719322.js"
   ]
 }
