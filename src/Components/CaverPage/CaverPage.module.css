@@ -257,6 +257,8 @@
       /* box-shadow: var(--boxShadow); */
       border-radius: 0.5em;
       /* opacity:70% */
+      height: fit-content;
+    width: 99%;
       
   }
   .tziTata p {
